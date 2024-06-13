@@ -532,7 +532,7 @@ def get_stable_gid(df, col):
 		df[col] = df[col]+df.par_region_1+df.par_region_2
 		df.drop(['temp', 'par_region_1', 'par_region_2'], axis=1, inplace=True)
 	except:
-		df[col] = df[col].str.split('.', expand=True)[0]
+		df[col] = df[col]
 
 	return df[col].tolist()
 

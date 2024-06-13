@@ -51,4 +51,5 @@ tutorials/*files/
 testing/test.tsv
 tutorials/*data*/
 tutorials/untitled.py
+build/
 
